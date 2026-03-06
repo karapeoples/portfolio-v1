@@ -38,7 +38,7 @@ const Intro = () => {
 				</p>
 			</section>
 			<p className='career-story'>Read the Full-Story Here:</p>
-			<a class="libutton" rel="noopener noreferrer" href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=6898716482310590464" target="_blank">Subscribe on LinkedIn</a>
+			<a className="libutton" rel="noopener noreferrer" href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=6898716482310590464" target="_blank">Subscribe on LinkedIn</a>
 		</div>
 	);
 };
