@@ -6,7 +6,7 @@ const Landing = () => {
 	return (
 		<div>
 			<h1>Kara R. Peoples</h1>
-			<h2>Software Engineer</h2>
+			<h2>Technical Documentation • QA • Developer Workflows</h2>
 			<div className='design'>
 				<div className='rotatedBorder'></div>
 				<img src={coverPage} className='portrait' alt='A portrait of Kara. She is holding a small puppy named Critter in her slightly-side posed arms. She is wearing a blue and white striped jacket over a blue shirt. Slightly smiling with a teal-colored faux-hawk and gray shaved hair.' />
@@ -33,6 +33,7 @@ const Landing = () => {
 			<section className='landWrapper'>
 				<div>
 					<h4>Specializing in:</h4>
+						<p> I document complex systems, test workflows, and translate technical processes into clear developer guidance.</p>
 					<h6>Quality Assurance Engineering</h6>
 					<h6>Automated Software Testing</h6>
 					<h6>Front-End Web Development</h6>
