@@ -25,7 +25,7 @@ const Showcase = () => {
 };
 export default Showcase;
 
-{/* <section className='sc-section'>
+/* <section className='sc-section'>
 								<span className='sc-section-body'>
 									<div className='showCase'>
 									<div className='sc-img-container'>
@@ -58,4 +58,4 @@ export default Showcase;
 									Repo
 								</button>
 								</span>
-							</section> */}
+							</section> */
