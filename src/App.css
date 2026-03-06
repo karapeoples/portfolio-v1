@@ -117,7 +117,7 @@ h6 {
   transform: rotate(45deg);
   box-shadow: 0 0 10px var(--dark), inset 0 0 20px var(--dark);
   border-radius: 2rem;
-  animation: spin 5s linear infinite;
+  animation: spin 8s linear infinite;
   animation-direction: reverse;
 }
 
