@@ -34,9 +34,6 @@ const Landing = () => {
 				<div>
 					<h4>Specializing in:</h4>
 						<p> I document complex systems, test workflows, and translate technical processes into clear developer guidance.</p>
-					<h6>Quality Assurance Engineering</h6>
-					<h6>Automated Software Testing</h6>
-					<h6>Front-End Web Development</h6>
 				</div>
 			</section>
 		</div>
