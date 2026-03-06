@@ -33,7 +33,7 @@ const Landing = () => {
 			<section className='landWrapper'>
 				<div>
 					<h4>Specializing in:</h4>
-						<p> I document complex systems, test workflows, and translate technical processes into clear developer guidance.</p>
+						<p> Documenting complex systems, test workflows, and translating them into technical processes and clear developer guidance.</p>
 				</div>
 			</section>
 		</div>
