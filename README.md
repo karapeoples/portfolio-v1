@@ -2,5 +2,5 @@
 
 To see this portfolio live please visit My Website at
 
-[Kara R. Peoples Portfolio](https://karapeoples.com)
+[Kara R. Peoples Portfolio]([https://karapeoples.com](http://portfolio-v1.kararpeoples.vercel.app/))
 
