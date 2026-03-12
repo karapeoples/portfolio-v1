@@ -16,12 +16,14 @@ const ResponsiveCard = () => {
 								<div className='sc-img-container'>
 									<Image className="sc-image" src={schoolR} alt="Website Snapshot" />
 								</div>
-									<CardHeader className='sc-header'>
+									<CardHeader >
+			                         <span className='sc-header'>
   										<h6>One-Week Collaborative Build</h6>
   											<h3>"School'R"</h3>
+										</span>
 									</CardHeader>
 								   <CardBody>
-								<span clsassName='sc-copy'>
+								<span className='sc-copy'>
 									<p className='sc-card-body'>
 										School'R was built in a one-week sprint as a deep dive into the concepts I had learned so far while taking a break in my curriculum. The project
 										explores how parents and children could engage with educational resources, activities, and interactive features through a shared platform.</p>
@@ -58,45 +60,63 @@ const ResponsiveCard = () => {
 						</div>
 
 						<div className='showcase'>
-							<Card>
-							<span >
-								<div className='sc-img-container'>
-									<Image className="sc-image" src={oppia} alt="Website Snapshot" />
-								</div>
-								<CardBody>
-									<CardHeader >
-										<h6>Volunteer Project</h6><br /><h3>Oppia</h3></CardHeader>
-									<p className='sc-card-body'>
-										An open-source Education/Technology Website.<br />
-										Free Math Lessons for Everyone<br />
-										Angular and Python<br />
-										WSL2 and Virtual Machine Environment Exposure<br />
-										Blog writing to chronicle what I learn
-									</p>
-								</CardBody>
-							</span>
-							<CardFooter>
-								<span className='sc-section-btns'>
-								<a
-									className='sc-btn'
-									target='_blank'
-									rel='noopener noreferrer'
-									href='https://oppia.org'>
-									Site
-								</a>
-								<a
-									className='sc-btn'
-									target='_blank'
-									rel='noopener noreferrer'
-									href='https://github.com/karapeoples/oppia'>
-									Repo
-								</a>
-							</span>
-							</CardFooter>
+  <div className='sc-card'>
+    <Card>
+      <div className='sc-img-container'>
+        <Image className="sc-image" src={oppia} alt="Website Snapshot" />
+      </div>
 
-							<a className ="libutton" rel='noopener noreferrer' href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7153949983069638656" target="_blank">💼 Read on LinkedIn</a>
-						</Card>
-						</div>
+      <CardHeader>
+        <span className='sc-header'>
+          <h6>Open-Source Volunteer Journey</h6>
+          <h3>Oppia</h3>
+        </span>
+      </CardHeader>
+
+      <CardBody>
+        <span clsassName='sc-copy'>
+          <p className='sc-card-body'>
+            Oppia is an open-source education platform focused on making high-quality learning accessible to students around the world. Through volunteering with the project, I’ve been deepening my understanding of large codebases, onboarding workflows, and the realities of contributing within an established open-source environment.
+          </p>
+
+          <p className='sc-card-body'>
+            This work has given me hands-on exposure to WSL2, Ubuntu-based workflows, Angular, Python, and project documentation, while also strengthening how I approach troubleshooting, environment setup, and technical learning in public.
+          </p>
+
+          <p className='sc-card-body'>
+            Alongside the technical work, Oppia has also become a space for reflective writing — documenting what I’m learning, where I get blocked, and how open-source contribution builds both skill and perspective over time.
+          </p>
+        </span>
+      </CardBody>
+
+      <CardFooter>
+        <span className='sc-section-btns'>
+          <a
+            className='sc-btn'
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://oppia.org'>
+            🌍 Project Site
+          </a>
+          <a
+            className='sc-btn'
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/karapeoples/oppia'>
+            🐙 GitHub Repo
+          </a>
+          <a
+            className='sc-btn'
+            rel='noopener noreferrer'
+            href='https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7153949983069638656'
+            target='_blank'>
+            💼 Read on LinkedIn
+          </a>
+        </span>
+      </CardFooter>
+    </Card>
+  </div>
+</div>
 				</HStack>
 		)
 	} else{
@@ -104,17 +124,18 @@ const ResponsiveCard = () => {
 			<HStack spacing='50px'>
 				<div className='showcase'>
 			<div className='sc-card'>
-								<Card>
-							
+				<Card>
 								<div className='sc-img-container'>
 									<Image className="sc-image" src={schoolR} alt="Website Snapshot" />
 								</div>
-									<CardHeader className='sc-header'>
+									<CardHeader >
+			                         <span className='sc-header'>
   										<h6>One-Week Collaborative Build</h6>
   											<h3>"School'R"</h3>
+										</span>
 									</CardHeader>
 								   <CardBody>
-								<span clsassName='sc-copy'>
+								<span className='sc-copy'>
 									<p className='sc-card-body'>
 										School'R was built in a one-week sprint as a deep dive into the concepts I had learned so far while taking a break in my curriculum. The project
 										explores how parents and children could engage with educational resources, activities, and interactive features through a shared platform.</p>
@@ -128,10 +149,9 @@ const ResponsiveCard = () => {
 									 concepts in a larger build.<br /></p>
 								</span>
 								</CardBody>
-							
 							<CardFooter>
-								<span className='sc-section-btns'>
-									<a
+									<span className='sc-section-btns'>
+								<a
 									className='sc-btn'
 									target='_blank'
 									rel='noopener noreferrer'
@@ -145,51 +165,70 @@ const ResponsiveCard = () => {
 									href='https://github.com/School-R/front-end'>
 									🐙 GitHub Repo
 								</a>
-							</span>
+										</span>
 							</CardFooter>
 							</Card>
-										</div>
+						</div>
 						</div>
 
 						<div className='showcase'>
-						<Card>
-							<span >
-								<div className='sc-img-container'>
-									<Image className="sc-image" src={oppia} alt="Website Snapshot" />
-								</div>
-								<CardBody>
-									<CardHeader >
-										<h6>Volunteer Project</h6><br /><h3>Oppia</h3></CardHeader>
-									<p className='sc-card-body'>
-										An open-source Education/Technology Website.<br />
-										Free Math Lessons for Everyone<br />
-										Angular and Python<br />
-										WSL2 and Virtual Machine Environment Exposure<br />
-										Blog writing to chronicle what I learn
-									</p>
-								</CardBody>
-							</span>
-							<CardFooter className='sc-section-btns'>
-								<a
-									className='sc-btn'
-									target='_blank'
-									rel='noopener noreferrer'
-									href='https://oppia.org'>
-									Site
-								</a>
-								<a
-									className='sc-btn'
-									target='_blank'
-									rel='noopener noreferrer'
-									href='https://github.com/karapeoples/oppia'>
-									Repo
-								</a>
+  <div className='sc-card'>
+    <Card>
+      <div className='sc-img-container'>
+        <Image className="sc-image" src={oppia} alt="Website Snapshot" />
+      </div>
 
-							</CardFooter>
+      <CardHeader>
+        <span className='sc-header'>
+          <h6>Open-Source Volunteer Journey</h6>
+          <h3>Oppia</h3>
+        </span>
+      </CardHeader>
 
-							<a className ="libutton" rel='noopener noreferrer' href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7153949983069638656" target="_blank">💼 Read on LinkedIn</a>
-							</Card>
-						</div>
+      <CardBody>
+        <span clsassName='sc-copy'>
+          <p className='sc-card-body'>
+            Oppia is an open-source education platform focused on making high-quality learning accessible to students around the world. Through volunteering with the project, I’ve been deepening my understanding of large codebases, onboarding workflows, and the realities of contributing within an established open-source environment.
+          </p>
+
+          <p className='sc-card-body'>
+            This work has given me hands-on exposure to WSL2, Ubuntu-based workflows, Angular, Python, and project documentation, while also strengthening how I approach troubleshooting, environment setup, and technical learning in public.
+          </p>
+
+          <p className='sc-card-body'>
+            Alongside the technical work, Oppia has also become a space for reflective writing — documenting what I’m learning, where I get blocked, and how open-source contribution builds both skill and perspective over time.
+          </p>
+        </span>
+      </CardBody>
+
+      <CardFooter>
+        <span className='sc-section-btns'>
+          <a
+            className='sc-btn'
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://oppia.org'>
+            🌍 Project Site
+          </a>
+          <a
+            className='sc-btn'
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/karapeoples/oppia'>
+            🐙 GitHub Repo
+          </a>
+          <a
+            className='sc-btn'
+            rel='noopener noreferrer'
+            href='https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7153949983069638656'
+            target='_blank'>
+            💼 Read on LinkedIn
+          </a>
+        </span>
+      </CardFooter>
+    </Card>
+  </div>
+</div>
 			</HStack>
 		)
 	}
