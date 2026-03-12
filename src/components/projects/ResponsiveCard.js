@@ -18,13 +18,18 @@ const ResponsiveCard = () => {
 								</div>
 								<CardBody>
 									<CardHeader >
-										<h6>This was a School project</h6><br /><h3>"School'R"</h3></CardHeader>
+										<h6>One-Week Collaborative Build</h6><br /><h3>"School'R"</h3></CardHeader>
 									<p className='sc-card-body'>
-										Led the team remotely by delegating responsibilities by wants and strengths.<br />
-										Led the team through concepts of Redux in order to deepen the teams understanding of core Redux capabilities and concepts.<br />
-										Implemented, Planned, and Delegated UI/UX Design and Development in ReactStrap.<br />
-										Translated  JS Logic in Rock, Paper, Scissors Game & Memory Game to React Logic  using Local State.<br />
-									</p>
+										School'R was built in a one-week sprint as a deep dive into the concepts I had learned so far while taking a break in my curriculum. The project
+										explores how parents and children could engage with educational resources, activities, and interactive features through a shared platform.</p>
+
+									<p className = 'sc-card-body'>
+										The current preview includes the landing page, registration flow mockups, About page, and interactive features such as Memory and Rock, Paper,
+										Scissors, while preserving the authentic team personality behind the build.</p>
+
+									<p className = 'sc-card-body'>
+									 Through this project, I worked through frontend structure, UI planning, collaboration, and interactive React features while applying JavaScript
+									 concepts in a larger build.<br /></p>
 
 								</CardBody>
 							</span>
@@ -34,14 +39,14 @@ const ResponsiveCard = () => {
 									target='_blank'
 									rel='noopener noreferrer'
 									href='https://front-end-schoolr.vercel.app/'>
-									Site
+									💻 Project Preview
 								</a>
 								<a
 									className='sc-btn'
 									target='_blank'
 									rel='noopener noreferrer'
 									href='https://github.com/School-R/front-end'>
-									Repo
+									🐙 GitHub Repo
 								</a>
 							</CardFooter>
 							</Card>
