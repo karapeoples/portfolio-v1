@@ -90,6 +90,30 @@ h6 {
   text-decoration: underline overline;
 }
 
+.sub-nav-menu {
+  background: var(--dark);
+}
+
+.sub-nav-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--ecru);
+  gap: 1rem;
+}
+
+.sub-link {
+  color: var(--text);
+  text-decoration: underline overline;
+}
+
+.lsub-ink:hover {
+  color: var(--dark;
+  background: var(--ecru);
+  text-decoration: underline overline;
+}
+
 /* LANDING PAGE CSS */
 @keyframes spin {
   from {
