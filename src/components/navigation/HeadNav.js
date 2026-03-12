@@ -30,10 +30,24 @@ const [collapsed, setCollapsed] = useState(false);
 			<div className='nav-menu'>
 				<div className='nav-item'>
 					<Link to='/about' className='link'>About</Link>
-					<Link to='/projects' className='link'>Showcase</Link>
-				</div>
+					<Link to='/projects' className='link' onClick={() => setCollapsed(!collapsed)>Showcase</Link>
+				</div>	
 			</div>
 			)}
+{collapsed &&(
+		        <div className='sub-nav-menu'>
+				<div className='sub-nav-item'>
+				<a className="sub-link" target='_blank' rel='noopener noreferrer' href='https://codestats.net/users/kararpeoples'>
+					Code Stats
+				</a>
+				<a className="sub-link" target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1saZNfU5pbsngdvptPidxZAhBZCH7RBgqX8xBomiCDRM'>
+					Resume
+				</a>
+				</div>
+				</div>	
+			
+	
+)}
 		</div>
 	);
 }
