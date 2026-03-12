@@ -31,7 +31,7 @@ const [showSubNav, setShowSubNav] = useState(false);
 			<div className='nav-menu'>
 				<div className='nav-item'>
 					<Link to='/about' className='link'>About</Link>
-					<Link to='/projects' className='link' onClick={() => setCollapsed(!showSubNav)}> Showcase</Link>
+					<Link to='/projects' className='link' onClick={() => setShowSubNav(!showSubNav)}> Showcase</Link>
 				</div>	
 			</div>
 			)}
