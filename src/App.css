@@ -285,9 +285,15 @@ h6 {
   filter: drop-shadow(2px 6px 8px var(--ecru))
 }
 
-.contact:hover{
+.c-btn:hover,
+.c-btn:focus {
   background-color: var(--ecru);
-  color: var(--dark)
+  color: var(--dark);
+}
+
+.c-btn:hover img,
+.c-btn:focus img {
+  filter: drop-shadow(2px 6px 8px var(--dark));
 }
 
 .copyright {
