@@ -24,7 +24,7 @@ const [showSubNav, setShowSubNav] = useState(false);
 
 				<div id='nav-toggle' className='nav-item'>
 					<img src='https://img.icons8.com/cotton/64/000000/menu.png' alt='menu' onClick={() => setCollapsed(!collapsed);
-					setSubShowNav(!subShowNav)}/>
+					setSubShowNav(!subShowNav)}}/>
 				</div >
 			</nav>
 
