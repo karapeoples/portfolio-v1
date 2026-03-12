@@ -30,7 +30,7 @@ const handleMenuToggle = () => {
 			</nav>
 
 	{collapsed && (
-		<section>
+		<section className='menu-stack'>
 			<div className='nav-menu'>
 				<div className='nav-item'>
 					<Link to='/about' className='link'>About</Link>
