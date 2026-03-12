@@ -9,14 +9,6 @@ const Showcase = () => {
 	return (
 		<div>
 			<h1>Projects</h1>
-			<div className='project-btns'>
-				<a className="project-btn" target='_blank' rel='noopener noreferrer' href='https://codestats.net/users/kararpeoples'>
-					Code Stats
-				</a >
-				<a className="project-btn" target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1saZNfU5pbsngdvptPidxZAhBZCH7RBgqX8xBomiCDRM'>
-					Resume
-				</a>
-				</div>
 				<div className='sc-section-body'>
 					<ResponsiveCard/>
 				</div>
