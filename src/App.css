@@ -109,7 +109,7 @@ h6 {
 }
 
 .sub-link:hover {
-  color: var(--dark;
+  color: var(--dark);
   background: var(--ecru);
   text-decoration: underline overline;
 }
