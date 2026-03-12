@@ -10,7 +10,7 @@ const Intro = () => {
 					<img src='https://img.icons8.com/ios/50/000000/sporty-wheelchair-user.png' alt='disabled' />
 				</div>
 				<p>
-					I’m a detail-oriented technical professional with strengths in documentation, QA thinking, and developer-facing workflows. My path into tech has been shaped by 	persistence, curiosity, and a drive to turn complex information into something clear and usable.
+					I’m a detail-oriented technical professional with strengths in documentation, QA thinking, and developer-facing workflows. My path into tech has been shaped by persistence, curiosity, and a drive to turn complex information into something clear and usable.
 				</p>
 			</section>
 			<hr />
@@ -33,7 +33,7 @@ const Intro = () => {
 					Through BloomTech, GenSpark, hands-on projects, and continued self-driven learning, I’ve built a strong foundation in adapting to new tools, understanding technical systems, and communicating ideas clearly. I’m especially interested in work where I can build, test, explain, and improve the experience of working with technology.
 				</p>
 			</section>
-			<a className="libutton" rel="noopener noreferrer" href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=6898716482310590464" target="_blank">Read the Full Story on LinkedIn</a>
+			<a className="libutton" rel="noopener noreferrer" href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=6898716482310590464" target="_blank">💼 Read the Full Story on LinkedIn</a>
 		</div>
 	);
 };
