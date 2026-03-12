@@ -163,7 +163,7 @@ const ResponsiveCard = () => {
 
 							</CardFooter>
 
-							<a className ="libutton" rel='noopener noreferrer' href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7153949983069638656" target="_blank">Subscribe on LinkedIn</a>
+							<a className ="libutton" rel='noopener noreferrer' href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7153949983069638656" target="_blank">SRead on LinkedIn</a>
 							</Card>
 						</div>
 			</HStack>
