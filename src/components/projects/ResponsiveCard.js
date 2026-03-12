@@ -11,8 +11,8 @@ const ResponsiveCard = () => {
 		return(
 			<HStack spacing= '24px'>
 			<div className='showcase'>
-				<Card className='sc-card'>
-							<span>
+				<Card>
+							<span className='sc-card'>
 								<div className='sc-img-container'>
 									<Image className="sc-image" src={schoolR} alt="Website Snapshot" />
 								</div>
@@ -20,7 +20,8 @@ const ResponsiveCard = () => {
   										<h6>One-Week Collaborative Build</h6>
   											<h3>"School'R"</h3>
 									</CardHeader>
-								   <CardBody clsassName='sc-copy'>
+								   <CardBody>
+								<span clsassName='sc-copy'>
 									<p className='sc-card-body'>
 										School'R was built in a one-week sprint as a deep dive into the concepts I had learned so far while taking a break in my curriculum. The project
 										explores how parents and children could engage with educational resources, activities, and interactive features through a shared platform.</p>
@@ -32,7 +33,7 @@ const ResponsiveCard = () => {
 									<p className = 'sc-card-body'>
 									 Through this project, I worked through frontend structure, UI planning, collaboration, and interactive React features while applying JavaScript
 									 concepts in a larger build.<br /></p>
-									
+								</span>
 								</CardBody>
 							</span>
 							<CardFooter className='sc-section-btns'>
@@ -99,15 +100,16 @@ const ResponsiveCard = () => {
 			<HStack spacing='50px'>
 				<div className='showcase'>
 								<Card>
-							<span>
+							<span className='sc-card'>
 								<div className='sc-img-container'>
 									<Image className="sc-image" src={schoolR} alt="Website Snapshot" />
 								</div>
-								<CardHeader className='sc-header'>
+									<CardHeader className='sc-header'>
   										<h6>One-Week Collaborative Build</h6>
   											<h3>"School'R"</h3>
 									</CardHeader>
-								   <CardBody clsassName='sc-copy'>
+								   <CardBody>
+								<span clsassName='sc-copy'>
 									<p className='sc-card-body'>
 										School'R was built in a one-week sprint as a deep dive into the concepts I had learned so far while taking a break in my curriculum. The project
 										explores how parents and children could engage with educational resources, activities, and interactive features through a shared platform.</p>
@@ -119,7 +121,7 @@ const ResponsiveCard = () => {
 									<p className = 'sc-card-body'>
 									 Through this project, I worked through frontend structure, UI planning, collaboration, and interactive React features while applying JavaScript
 									 concepts in a larger build.<br /></p>
-									
+								</span>
 								</CardBody>
 							</span>
 							<CardFooter className='sc-section-btns'>
