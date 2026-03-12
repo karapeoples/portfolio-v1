@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 const HeadNav = () => {
 
 const [collapsed, setCollapsed] = useState(false);
+const [showSubNav, setShowSubNav] = useState(false);
 
 
 	return (
@@ -30,11 +31,11 @@ const [collapsed, setCollapsed] = useState(false);
 			<div className='nav-menu'>
 				<div className='nav-item'>
 					<Link to='/about' className='link'>About</Link>
-					<Link to='/projects' className='link' onClick={() => setCollapsed(!collapsed)}> Showcase</Link>
+					<Link to='/projects' className='link' onClick={() => setCollapsed(!showSubNav)}> Showcase</Link>
 				</div>	
 			</div>
 			)}
-		{collapsed && (
+		{showSubNav && (
   			<div className='sub-nav-menu'>
     			<div className='sub-nav-item'>
       				<a className='sub-link' target='_blank' rel='noopener noreferrer' href='https://codestats.net/users/kararpeoples'> Code Stats
