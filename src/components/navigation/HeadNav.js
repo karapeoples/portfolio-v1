@@ -9,12 +9,10 @@ import { Link } from 'react-router-dom';
 
 const HeadNav = () => {
 
-const [collapsed, setCollapsed] [showSubNav, setShowSubNav]  = useState(false);
+const [collapsed, setCollapsed] = useState(false);
 const handleMenuToggle = () => {
   setCollapsed(prev => !prev);
-  setSubShowNav(prev => !prev);
 };
-
 
 
 	return (
@@ -38,8 +36,6 @@ const handleMenuToggle = () => {
 					<Link to='/projects' className='link'}> Showcase</Link>
 				</div>	
 			</div>
-			)}
-		{showSubNav && (
   			<div className='sub-nav-menu'>
     			<div className='sub-nav-item'>
       				<a className='sub-link' target='_blank' rel='noopener noreferrer' href='https://codestats.net/users/kararpeoples'> Code Stats
