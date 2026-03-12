@@ -290,8 +290,8 @@ h6 {
 .c-btn:hover img,
 .c-btn:focus img {
   background-color: var(--ecru);
-  color: var(--dark)
-  filter: drop-shadow(2px 6px 8px);;
+  color: var(--dark);
+  filter: drop-shadow(2px 6px 8px);
 }
 
 
