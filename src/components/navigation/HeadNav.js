@@ -9,8 +9,7 @@ import { Link } from 'react-router-dom';
 
 const HeadNav = () => {
 
-const [collapsed, setCollapsed] = useState(false);
-const [showSubNav, setShowSubNav] = useState(false);
+const [collapsed, setCollapsed] [showSubNav, setShowSubNav]  = useState(false);
 const handleMenuToggle = () => {
   setCollapsed(prev => !prev);
   setSubShowNav(prev => !prev);
