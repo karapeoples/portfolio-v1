@@ -205,26 +205,29 @@ h6 {
 }
 
 .libutton {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
-  padding: 7px;
+  padding: 0.85rem 1.6rem;
   text-align: center;
   outline: none;
-  width: 90%;
-  height: 42px;
-  border-radius: 16px;
+  width: auto;
+  min-height: 42px;
+  border-radius: 999px;
   background-color: var(--dark);
   color: var(--ecru);
   font-family: var(--sub);
-  margin: 0 auto;
-  margin-bottom: .5rem;
-
+  text-decoration: none;
+  margin: 0 auto 0.75rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.libutton:hover {
+.libutton:hover,
+.libutton:focus {
   color: var(--dark);
   background-color: var(--ecru);
+  transform: translateY(-2px);
+  opacity: 0.92;
 }
 
 /*  FOOTER CSS */
