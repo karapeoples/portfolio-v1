@@ -34,7 +34,7 @@ const handleMenuToggle = () => {
 			<div className='nav-menu'>
 				<div className='nav-item'>
 					<Link to='/about' className='link'>About</Link>
-					<Link to='/projects' className='link'> Showcase</Link>
+					<Link to='/projects' className='link'> Projects</Link>
 				</div>	
 			</div>
   			<div className='sub-nav-menu'>
