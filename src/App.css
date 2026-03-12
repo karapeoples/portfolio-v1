@@ -113,20 +113,21 @@ h6 {
 }
 
 .landWrapper {
-  margin-top: 1.5rem;
-  text-align: center;
-  padding: 0 1.5rem 3rem;
+  position: relative;
+  z-index: 5;
+  margin-top: 3rem;
 }
 
 .landWrapper h6 {
-  font-size: 2rem;
-  margin: 0 0 0.75rem 0;
+  font-size: 1.7rem;
+  margin: 0 0 0.6rem 0;
+   
 }
 
 .landWrapper p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.6;
-  max-width: 850px;
+  max-width: 950px;
   margin: 0 auto;
 }
 
