@@ -61,7 +61,7 @@ h6 {
 }
 
 #nav-toggle: hover,
-##nav-toggle: focus {
+#nav-toggle: focus {
   background: #f0b24a;
   transform: scale(1.05);
 }
