@@ -13,7 +13,7 @@ const Footer = () => {
 	  						</a>
 						</div>
 						<div>
-							<h5 className='copyright'>©2024~~Kara R. Peoples </h5>
+							<h5 className='copyright'>©2026~~Kara R. Peoples </h5>
 						</div>
 					</nav>
 				</div>
