@@ -286,15 +286,14 @@ h6 {
 }
 
 .c-btn:hover,
-.c-btn:focus {
-  background-color: var(--ecru);
-  color: var(--dark);
-}
-
+.c-btn:focus,
 .c-btn:hover img,
 .c-btn:focus img {
-  filter: drop-shadow(2px 6px 8px var(--dark));
+  background-color: var(--ecru);
+  color: var(--dark)
+  filter: drop-shadow(2px 6px 8px);;
 }
+
 
 .copyright {
   color: var(--ecru);
