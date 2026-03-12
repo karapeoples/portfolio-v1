@@ -326,21 +326,34 @@ h6 {
 
 
 .sc-btn {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
-  padding: 7px;
+  padding: 0.85rem 1.2rem;
   text-align: center;
   outline: none;
-  width: 200px;
-  height: 32px;
-  border-radius: 16px;
+  width: 220px;
+  min-height: 46px;
+  border-radius: 999px;
   background-color: var(--dark);
   color: var(--ecru);
   margin: 0 auto;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
-.sc-btn:hover{
-  color:var(--dark);
+
+.sc-btn:hover {
+  color: var(--dark);
   background-color: var(--ecru);
+  transform: translateY(-2px);
+}
+
+.sc-section-btns {
+  margin: 1.5rem auto 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 90%;
 }
 
 .project-btns {
@@ -398,12 +411,6 @@ h6 {
   text-align: left;
 }
 
-.sc-section-btns {
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-  width: 90%;
-}
 
 /* Media Queries */
 
