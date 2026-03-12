@@ -361,17 +361,16 @@ h6 {
 
 
 .sc-section-btns {
-  display: inline-flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 220px));
   justify-content: center;
-  min-height: 48px;
-  padding: 0.85rem 1.2rem;
-  border-radius: 999px;
-  background-color: var(--dark);
-  color: var(--ecru);
-  text-decoration: none;
-  font-family: var(--sub);
-  font-size: 1.05rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.sc-section-btns .sc-btn:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
 }
 
 .sc-btn {
@@ -386,7 +385,6 @@ h6 {
   text-decoration: none;
   font-family: var(--sub);
   font-size: 1.05rem;
-  flex: 0 1 220px;
 }
 
 .sc-btn:hover {
@@ -394,7 +392,6 @@ h6 {
   background-color: var(--ecru);
   transform: translateY(-2px);
 }
-
 
 
 
