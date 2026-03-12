@@ -309,10 +309,11 @@ h6 {
 
 /* SHOWCASE CSS */
 
-.showcase{
+.showcase {
   font-size: 1rem;
   width: 100%;
 }
+
 
 .sc-img-container {
   width: 90%;
@@ -364,13 +365,38 @@ h6 {
   background-color: var(--ecru);
   color: var(--dark)
 }
-.sc-card-body {
-  margin: 0 auto;
-  font-family: var(--sub);
-  color:var(--text);
-  font-size: 1rem;
+
+.sc-card {
+  background: #f8f8f8;
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  padding: 1.25rem 0 1rem;
 }
 
+.sc-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.sc-header h6 {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.sc-header h3 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.sc-card-body {
+  margin: 0 auto 1rem;
+  max-width: 88%;
+  font-family: var(--sub);
+  color: var(--text);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: left;
+}
 
 .sc-section-btns {
   margin: 1rem;
