@@ -11,7 +11,7 @@ const ResponsiveCard = () => {
 		return(
 			<HStack spacing= '24px'>
 			<div className='showcase'>
-			<span className='sc-card'>
+			<div className='sc-card'>
 				<Card>
 								<div className='sc-img-container'>
 									<Image className="sc-image" src={schoolR} alt="Website Snapshot" />
@@ -54,7 +54,7 @@ const ResponsiveCard = () => {
 										</span>
 							</CardFooter>
 							</Card>
-						</span>
+						</div>
 						</div>
 
 						<div className='showcase'>
@@ -103,7 +103,7 @@ const ResponsiveCard = () => {
 		return (
 			<HStack spacing='50px'>
 				<div className='showcase'>
-			<span className='sc-card'>
+			<div className='sc-card'>
 								<Card>
 							
 								<div className='sc-img-container'>
@@ -148,7 +148,7 @@ const ResponsiveCard = () => {
 							</span>
 							</CardFooter>
 							</Card>
-										</span>
+										</div>
 						</div>
 
 						<div className='showcase'>
