@@ -10,17 +10,13 @@ const Intro = () => {
 					<img src='https://img.icons8.com/ios/50/000000/sporty-wheelchair-user.png' alt='disabled' />
 				</div>
 				<p>
-					Being Disabled has taught me to appreciate the social experience that a job brings, while being thankful for being
-					able to be a productive member of society. It has also allowed me the opportunity to craft and hone my programming
-					skills.
+					I’m a detail-oriented technical professional with strengths in documentation, QA thinking, and developer-facing workflows. My path into tech has been shaped by 	persistence, curiosity, and a drive to turn complex information into something clear and usable.
 				</p>
 			</section>
 			<hr />
 			<section>
 				<p>
-					Crafting applies to my programming because it has taught me to have a keen eye and distinct attention for detail.
-					Giving me the skill to pinpoint syntax errors with some comfort and patience. It also helps in allowing parts of a
-					whole to make a complete picture in my mind. It has taught me both how to follow directions and make my own path.
+					Crafting and creative problem-solving have shaped the way I approach programming. They taught me patience, attention to detail, and how to see individual pieces as part of a larger system — skills that naturally carry over into debugging, documentation, and improving technical processes.
 				</p>
 				<div>
 					<img src='https://img.icons8.com/ios/50/000000/knitting-ball.png' alt='yarn' />
@@ -34,11 +30,10 @@ const Intro = () => {
 					<img src='https://img.icons8.com/ios/50/000000/graduation-scroll.png' alt='diploma' />
 				</div>
 				<p className='p-type1'>
-					I learned how to read, comprehend, and quickly adapt to new frameworks and tools, with an education from BloomTech (fka Lambda School) and training from GenSpark. To build on these comprehensions, I have started the path to my Bachelor's Degree in Computer Science. The first-step in this achievement is obtaining an AAS at Eastern Oklahoma State College in Software Development.
+					Through BloomTech, GenSpark, hands-on projects, and continued self-driven learning, I’ve built a strong foundation in adapting to new tools, understanding technical systems, and communicating ideas clearly. I’m especially interested in work where I can build, test, explain, and improve the experience of working with technology.
 				</p>
 			</section>
-			<p className='career-story'>Read the Full-Story Here:</p>
-			<a className="libutton" rel="noopener noreferrer" href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=6898716482310590464" target="_blank">Subscribe on LinkedIn</a>
+			<a className="libutton" rel="noopener noreferrer" href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=6898716482310590464" target="_blank">Read the Full Story on LinkedIn</a>
 		</div>
 	);
 };
