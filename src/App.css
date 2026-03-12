@@ -54,7 +54,7 @@ h6 {
 }
 
 #nav-toggle {
-  margin: 0;
+  margin: 0; 
   display: flex;
   align-items: center;
   justify-content: flex-end;
