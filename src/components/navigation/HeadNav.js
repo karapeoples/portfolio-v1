@@ -23,13 +23,15 @@ const [showSubNav, setShowSubNav] = useState(false);
 				</div>
 
 				<div id='nav-toggle' className='nav-item'>
-					<img src='https://img.icons8.com/cotton/64/000000/menu.png' alt='menu' 
-		 			onClick={() => {
-      				setCollapsed(prev => !prev);
-      				setSubShowNav(prev => !prev);
-    				}}
-  				/>
-				</div >
+  <img
+    src='https://img.icons8.com/cotton/64/000000/menu.png'
+    alt='menu'
+    onClick={() => {
+      setCollapsed(prev => !prev);
+      setSubShowNav(prev => !prev);
+    }}
+  />
+</div>
 			</nav>
 
 			{collapsed && (
