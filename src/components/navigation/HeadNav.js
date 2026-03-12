@@ -37,7 +37,7 @@ const [collapsed, setCollapsed] = useState(false);
 		{collapsed && (
   			<div className='sub-nav-menu'>
     			<div className='sub-nav-item'>
-      				<a className='sub-link' target='_blank' el='noopener noreferrer' ref='https://codestats.net/users/kararpeoples'> Code Stats
+      				<a className='sub-link' target='_blank' el='noopener noreferrer' href='https://codestats.net/users/kararpeoples'> Code Stats
       				</a>
       				<a className='sub-link' target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1saZNfU5pbsngdvptPidxZAhBZCH7RBgqX8xBomiCDRM'>
         			Resume
