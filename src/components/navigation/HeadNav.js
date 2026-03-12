@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logoLight from '../images/logo-light.png';
+import logoLight from '../images/logo-light-insight.png';
 import { Link } from 'react-router-dom';
 
 
