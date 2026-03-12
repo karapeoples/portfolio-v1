@@ -130,19 +130,19 @@ const ResponsiveCard = () => {
 							</span>
 							<CardFooter>
 								<div className='sc-section-btns'>
-								<a
+									<a
 									className='sc-btn'
 									target='_blank'
 									rel='noopener noreferrer'
-									href='https://oppia.org'>
-									Site
+									href='https://front-end-schoolr.vercel.app/'>
+									💻 Project Preview
 								</a>
 								<a
 									className='sc-btn'
 									target='_blank'
 									rel='noopener noreferrer'
-									href='https://github.com/karapeoples/oppia'>
-									Repo
+									href='https://github.com/School-R/front-end'>
+									🐙 GitHub Repo
 								</a>
 							</div>
 							</CardFooter>
