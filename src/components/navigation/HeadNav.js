@@ -29,7 +29,7 @@ const handleMenuToggle = () => {
 				</div>
 			</nav>
 
-			{collapsed && (
+	{collapsed && (
 		<section>
 			<div className='nav-menu'>
 				<div className='nav-item'>
@@ -46,8 +46,9 @@ const handleMenuToggle = () => {
       				</a>
     			</div>
   			</div>
+		</section>
 		)}
-	</section>
+	
 		</div>
 	);
 }
