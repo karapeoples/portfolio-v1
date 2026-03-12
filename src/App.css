@@ -66,8 +66,15 @@ h6 {
   transform: scale(1.05);
 }
 
+.menu-stack {
+  width: 100%;
+}
+
 .nav-menu {
   background: var(--ecru);
+  padding: 0.75rem 0;
+  border-top: 2px solid var(--gold);
+  border-bottom: 2px solid var(--gold);
 }
 
 .nav-item {
@@ -92,6 +99,7 @@ h6 {
 
 .sub-nav-menu {
   background: var(--dark);
+  padding: 0.75rem 0;
 }
 
 .sub-nav-item {
