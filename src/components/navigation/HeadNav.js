@@ -23,7 +23,7 @@ const [showSubNav, setShowSubNav] = useState(false);
 				</div>
 
 				<div id='nav-toggle' className='nav-item'>
-					<img src='https://img.icons8.com/cotton/64/000000/menu.png' alt='menu' onClick={() => setCollapsed(!collapsed)}/>
+					<img src='https://img.icons8.com/cotton/64/000000/menu.png' alt='menu' onClick={() => setCollapsed(!collapsed) && setSubShowNav(!subShowNav}/>
 				</div >
 			</nav>
 
@@ -31,7 +31,7 @@ const [showSubNav, setShowSubNav] = useState(false);
 			<div className='nav-menu'>
 				<div className='nav-item'>
 					<Link to='/about' className='link'>About</Link>
-					<Link to='/projects' className='link' onClick={() => setShowSubNav(!showSubNav)}> Showcase</Link>
+					<Link to='/projects' className='link'}> Showcase</Link>
 				</div>	
 			</div>
 			)}
