@@ -285,7 +285,7 @@ h6 {
   filter: drop-shadow(2px 6px 8px var(--ecru))
 }
 
-.c-btn:hover{
+.contact:hover{
   background-color: var(--ecru);
   color: var(--dark)
 }
