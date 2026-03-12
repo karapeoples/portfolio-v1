@@ -380,9 +380,12 @@ h6 {
 }
 
 .sc-card {
-  background: #f8f8f8;
-  border-radius: 18px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  background: #fcfcfc;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  box-shadow:
+    0 10px 22px rgba(0, 0, 0, 0.10),
+    0 20px 44px rgba(0, 0, 0, 0.12);
   padding: 1.25rem 0 1rem;
 }
 
