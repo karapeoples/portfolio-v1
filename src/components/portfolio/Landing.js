@@ -1,5 +1,5 @@
-import React from 'react'
-import coverPage from '../images/Kara.jpg'
+import React from 'react';
+import coverPage from '../images/Kara.jpg';
 
 
 const Landing = () => {
@@ -9,7 +9,7 @@ const Landing = () => {
 			<h2>Technical Documentation • QA • Developer Workflows</h2>
 			<div className='design'>
 				<div className='rotatedBorder'></div>
-				<img src={coverPage} className='portrait' alt='A portrait of Kara. She is holding a small puppy named Critter in her slightly-side posed arms. She is wearing a blue and white striped jacket over a blue shirt. Slightly smiling with a teal-colored faux-hawk and gray shaved hair.' />
+				<img src={coverPage} className='portrait' alt='A portrait of Kara. She is holding a small puppy named Critter in her slightly side-posed arms. She is wearing a blue-and-white striped jacket over a blue shirt. Slightly smiling with a teal-colored faux-hawk and gray shaved hair.' />
 
 				<div className='grid'>
 					<div data-white></div>
@@ -20,7 +20,7 @@ const Landing = () => {
 
 				<div className='blend'>
 					<div className='coverPage'></div>
-					<img src={coverPage} alt='A portrait of Kara. She is holding a small puppy named Critter in her slightly-side posed arms. She is wearing a blue and white striped jacket over a blue shirt. Slightly smiling with a teal-colored faux-hawk and gray shaved hair.' className='portrait' />
+					<img src={coverPage} alt='A portrait of Kara. She is holding a small puppy named Critter in her slightly side-posed arms. She is wearing a blue-and-white striped jacket over a blue shirt. Slightly smiling with a teal-colored faux-hawk and gray shaved hair.' className='portrait' />
 
 					<div className='grid'>
 						<div></div>
@@ -32,7 +32,7 @@ const Landing = () => {
 			</div>
 			<section className='landWrapper'>
 				<div>
-					<h6>SFocused On:</h6>
+					<h6>Focused On:</h6>
 						<p> Technical documentation, QA workflows, and translating complex systems into clear, usable guidance.</p>
 				</div>
 			</section>
