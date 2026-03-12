@@ -361,12 +361,11 @@ h6 {
 
 
 .sc-section-btns {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 220px));
   justify-content: center;
-  align-items: center;
   gap: 1rem;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 .sc-btn {
