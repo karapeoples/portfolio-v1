@@ -11,8 +11,8 @@ const ResponsiveCard = () => {
 		return(
 			<HStack spacing= '24px'>
 			<div className='showcase'>
+			<span className='sc-card'>
 				<Card>
-							<span className='sc-card'>
 								<div className='sc-img-container'>
 									<Image className="sc-image" src={schoolR} alt="Website Snapshot" />
 								</div>
@@ -35,9 +35,8 @@ const ResponsiveCard = () => {
 									 concepts in a larger build.<br /></p>
 								</span>
 								</CardBody>
-							</span>
 							<CardFooter>
-									<div className='sc-section-btns'>
+									<span className='sc-section-btns'>
 								<a
 									className='sc-btn'
 									target='_blank'
@@ -52,9 +51,10 @@ const ResponsiveCard = () => {
 									href='https://github.com/School-R/front-end'>
 									🐙 GitHub Repo
 								</a>
-										</div>
+										</span>
 							</CardFooter>
 							</Card>
+						</span>
 						</div>
 
 						<div className='showcase'>
@@ -103,8 +103,9 @@ const ResponsiveCard = () => {
 		return (
 			<HStack spacing='50px'>
 				<div className='showcase'>
+			<span className='sc-card'>
 								<Card>
-							<span className='sc-card'>
+							
 								<div className='sc-img-container'>
 									<Image className="sc-image" src={schoolR} alt="Website Snapshot" />
 								</div>
@@ -127,9 +128,9 @@ const ResponsiveCard = () => {
 									 concepts in a larger build.<br /></p>
 								</span>
 								</CardBody>
-							</span>
+							
 							<CardFooter>
-								<div className='sc-section-btns'>
+								<span className='sc-section-btns'>
 									<a
 									className='sc-btn'
 									target='_blank'
@@ -144,9 +145,10 @@ const ResponsiveCard = () => {
 									href='https://github.com/School-R/front-end'>
 									🐙 GitHub Repo
 								</a>
-							</div>
+							</span>
 							</CardFooter>
 							</Card>
+										</span>
 						</div>
 
 						<div className='showcase'>
