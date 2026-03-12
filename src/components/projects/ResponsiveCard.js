@@ -37,7 +37,7 @@ const ResponsiveCard = () => {
 								</CardBody>
 							</span>
 							<CardFooter>
-									<span className='sc-section-btns'>
+									<div className='sc-section-btns'>
 								<a
 									className='sc-btn'
 									target='_blank'
@@ -52,7 +52,7 @@ const ResponsiveCard = () => {
 									href='https://github.com/School-R/front-end'>
 									🐙 GitHub Repo
 								</a>
-										</span>
+										</div>
 							</CardFooter>
 							</Card>
 						</div>
@@ -129,7 +129,7 @@ const ResponsiveCard = () => {
 								</CardBody>
 							</span>
 							<CardFooter>
-								<span className='sc-section-btns'>
+								<div className='sc-section-btns'>
 								<a
 									className='sc-btn'
 									target='_blank'
@@ -144,7 +144,7 @@ const ResponsiveCard = () => {
 									href='https://github.com/karapeoples/oppia'>
 									Repo
 								</a>
-							</span>
+							</div>
 							</CardFooter>
 							</Card>
 						</div>
