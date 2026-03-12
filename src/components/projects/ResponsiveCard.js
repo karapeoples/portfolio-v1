@@ -73,7 +73,8 @@ const ResponsiveCard = () => {
 									</p>
 								</CardBody>
 							</span>
-							<CardFooter className='sc-section-btns'>
+							<CardFooter>
+								<span className='sc-section-btns'>
 								<a
 									className='sc-btn'
 									target='_blank'
@@ -88,6 +89,7 @@ const ResponsiveCard = () => {
 									href='https://github.com/karapeoples/oppia'>
 									Repo
 								</a>
+							</span>
 							</CardFooter>
 
 							<a className ="libutton" rel='noopener noreferrer' href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7153949983069638656" target="_blank">💼 Read on LinkedIn</a>
@@ -124,21 +126,23 @@ const ResponsiveCard = () => {
 								</span>
 								</CardBody>
 							</span>
-							<CardFooter className='sc-section-btns'>
+							<CardFooter>
+								<span className='sc-section-btns'>
 								<a
 									className='sc-btn'
 									target='_blank'
 									rel='noopener noreferrer'
-									href='https://front-end-schoolr.vercel.app/'>
-									💻 Project Preview
+									href='https://oppia.org'>
+									Site
 								</a>
 								<a
 									className='sc-btn'
 									target='_blank'
 									rel='noopener noreferrer'
-									href='https://github.com/School-R/front-end'>
-									🐙 GitHub Repo
+									href='https://github.com/karapeoples/oppia'>
+									Repo
 								</a>
+							</span>
 							</CardFooter>
 							</Card>
 						</div>
