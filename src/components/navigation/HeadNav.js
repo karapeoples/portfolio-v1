@@ -41,7 +41,7 @@ const handleMenuToggle = () => {
     			<div className='sub-nav-item'>
       				<a className='sub-link' target='_blank' rel='noopener noreferrer' href='https://codestats.net/users/kararpeoples'> Code Stats
       				</a>
-      				<a className='sub-link' target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1saZNfU5pbsngdvptPidxZAhBZCH7RBgqX8xBomiCDRM'>
+      				<a className='sub-link' target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1i207ILmo5kwlMGIV0Pcvn0VQimzzLhUbXwFXnfWsde4'>
         			Resume
       				</a>
     			</div>
