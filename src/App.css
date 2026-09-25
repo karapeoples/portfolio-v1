@@ -142,9 +142,9 @@ h6 {
 .portrait {
   border-radius: 2rem;
   border: .1rem solid white;
-  width: 100%;       
-  height: 100%;       
-  object-fit: cover;  
+  width: 100% !important;
+  height: 100% !important;      
+  object-fit: cover !important;  
 }
 
 .landWrapper {
