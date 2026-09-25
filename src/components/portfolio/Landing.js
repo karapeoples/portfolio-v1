@@ -1,5 +1,5 @@
 import React from 'react';
-import coverPage from '../images/Kara_2.png';
+import coverPage from '../images/Kara_2.jpg';
 
 
 const Landing = () => {
