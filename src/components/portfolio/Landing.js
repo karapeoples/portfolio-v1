@@ -1,5 +1,5 @@
 import React from 'react';
-import coverPage from '../images/Kara.jpg';
+import coverPage from '../images/Kara_2.jpg';
 
 
 const Landing = () => {
@@ -20,7 +20,7 @@ const Landing = () => {
 
 				<div className='blend'>
 					<div className='coverPage'></div>
-					<img src={coverPage} alt='A portrait of Kara. She is holding a small puppy named Critter in her slightly side-posed arms. She is wearing a blue-and-white striped jacket over a blue shirt. Slightly smiling with a teal-colored faux-hawk and gray shaved hair.' className='portrait' />
+					<img src={coverPage} alt='A portrait of Kara. She is wearing a blue-and-white outfit. Slightly smiling with a blue faux-hawk and gray shaved hair.' className='portrait' />
 
 					<div className='grid'>
 						<div></div>
